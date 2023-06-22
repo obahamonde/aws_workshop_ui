@@ -64,7 +64,7 @@ export const useAuth = () => {
   };
 
   const GIHUB_URL =
-    "https://github.com/login/oauth/authorize?client_id=00fc60bdaf14af17bf6f&redirect_uri=http://localhost:3000/login&scope=user,repo";
+    "https://github.com/login/oauth/authorize?client_id=00fc60bdaf14af17bf6f&redirect_uri=https://blackbox-cloud.netlify.app/login&scope=user,repo";
 
   const signinWithPopup = () => {
     window.location.href = GIHUB_URL;

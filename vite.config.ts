@@ -32,10 +32,7 @@ export default defineConfig({
       ignored: "/node_modules/",
     },
   },
-  build: {
-    outDir: "../static",
-    emptyOutDir: true,
-  },
+ 
 
   plugins: [
     VueMacros({
