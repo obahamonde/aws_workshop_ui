@@ -13,5 +13,5 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "http://aiofauna.com/api/:splat"
+  to = "https://aiofauna.com/api/:splat"
   status = 200
